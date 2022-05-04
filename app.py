@@ -9,5 +9,6 @@ from chat import get_response, bot_name
 #     return 'Hello World'
 
 if __name__ == "__main__":
-    msg = input("Enter Msg to Chatbot")
-    print(get_response(msg))
+    while(1) :
+        msg = input("Enter Msg to Chatbot \n")
+        print(get_response(msg))
